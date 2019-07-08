@@ -1,0 +1,40 @@
+@import "../src/iconoclass.css";
+
+body {
+  font-family: sans-serif;
+}
+
+.demo-controls {
+  font-size: 13px;
+}
+
+.demo-controls__line {
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+.demo-controls__label {
+  width: 100px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.demo-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.demo-controls__def {
+}
+
+.demo-icon-group {
+  display: inline-block;
+  margin: 16px;
+}
+.iconoclass {
+  color: blue;
+}
+.iconoclass.button:hover {
+  color: orange;
+}
