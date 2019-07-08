@@ -1,0 +1,59 @@
+version: 2
+jobs:
+  test:
+    working_directory: ~/iconoclass
+    docker:
+      - image: circleci/node:dubnium
+    steps:
+      - checkout
+      - run: echo '//registry.npmjs.org/:_authToken='$NPM_PRIVATE_AUTH_TOKEN > $HOME/.npmrc
+      - restore_cache:
+          keys:
+            - v1-node_modules-{{ checksum "package-lock.json" }}
+            - v1-node_modules-
+      - run:
+          command: npm install
+          no_output_timeout: 5m
+      - save_cache:
+          key: v1-node_modules-{{ checksum "package-lock.json" }}
+          paths:
+            - node_modules
+      - run: npm test
+      - persist_to_workspace:
+          root: ~/iconoclass
+          paths: .
+
+  publish:
+    working_directory: ~/iconoclass
+    docker:
+      - image: circleci/node:dubnium
+    steps:
+      - attach_workspace:
+          at: ~/iconoclass
+      - run:
+          name: Authenticate with registry
+          command: echo '//registry.npmjs.org/:_authToken='$NPM_PRIVATE_AUTH_TOKEN > $HOME/.npmrc
+      - run:
+          name: Publish package
+          command: npm publish
+
+workflows:
+  version: 2
+  test-publish:
+    jobs:
+      - test:
+          filters:
+            tags: # required since `publish` has tag filters AND requires `test`
+              only: /.*/
+            branches:
+              ignore:
+                - gh-pages
+
+      - publish:
+          requires:
+            - test
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^v.*/
