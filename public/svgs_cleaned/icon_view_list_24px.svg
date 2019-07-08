@@ -1,0 +1,9 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <title>
+        icon_view_list_24px
+    </title>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0h24v24H0z"/>
+        <path d="M20 15h-4v4h4v-4zm-5 4v-4H4v4h11zM20 10h-4v4h4v-4zm-5 4v-4H4v4h11zM20 5h-4v4h4V5zm-5 4V5H4v4h11z" fill="#000"/>
+    </g>
+</svg>

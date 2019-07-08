@@ -1,0 +1,9 @@
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <title>
+        icon_shell_16px
+    </title>
+    <g fill-rule="nonzero" fill="#000">
+        <path d="M5 11h6V5H5v6zm7-7v8H4V4h8z"/>
+        <path d="M8 7.659l3.175 2.72.65-.759L8 6.341l-3.825 3.28.65.759z"/>
+    </g>
+</svg>

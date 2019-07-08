@@ -1,0 +1,10 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <title>
+        icon_file_image_24px
+    </title>
+    <g fill="#000" fill-rule="evenodd">
+        <path d="M18 6.5V20H6V4h9.5L18 6.5zM16 2H6C5 2 4 3 4 4v16s0 2 2 2h12s2 0 2-2V5.6l-.3-.3-3-3-.3-.3H16z"/>
+        <path d="M7 18l3.5-7 3.5 7z"/>
+        <path d="M17 18l-2.5-4-2.5 4h3z"/>
+    </g>
+</svg>

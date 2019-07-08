@@ -1,0 +1,9 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <title>
+        icon_role_admin_group_24px
+    </title>
+    <g fill="#000" fill-rule="evenodd">
+        <path d="M6.5 23C3 20 1 16.62 1 11.544V6.452L3.25 5.5v5.622c0 4.594 1.952 8.334 5.5 10.878L6.5 23z" fill-rule="nonzero"/>
+        <path d="M5 5l9-4 9 4v6c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5zm9 0l-1.44 4.32H8l3.72 2.76-1.44 4.32L14 13.76l3.72 2.64-1.44-4.32L20 9.32h-4.56L14 5z"/>
+    </g>
+</svg>

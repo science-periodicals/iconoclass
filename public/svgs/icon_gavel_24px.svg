@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_gavel_24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gavel" transform="translate(1.000000, 1.000000)" fill="#000000">
+            <path d="M1,20 L13,20 L13,22 L1,22 L1,20 Z M5.245,7.07 L8.075,4.243 L22.215,18.385 L19.387,21.213 L5.245,7.07 Z M12.317,0 L17.974,5.656 L15.144,8.486 L9.49,2.826 L12.317,0 Z M3.825,8.485 L9.482,14.142 L6.654,16.97 L0.997,11.313 L3.825,8.485 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

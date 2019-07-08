@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_bot_24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M11,3 L13,3 L13,6 L11,6 L11,3 Z M12,14 C14.7,14 20,15.3 20,18 L20,20 L4,20 L4,18 C4,15.3 9.3,14 12,14 Z M7,7.00292933 C7,6.44902676 7.4556644,6 7.99539757,6 L16.0046024,6 C16.5543453,6 17,6.43788135 17,7.00292933 L17,11.9970707 C17,12.5509732 16.5443356,13 16.0046024,13 L7.99539757,13 C7.44565467,13 7,12.5621186 7,11.9970707 L7,7.00292933 Z M10,10 C10.5522847,10 11,9.55228475 11,9 C11,8.44771525 10.5522847,8 10,8 C9.44771525,8 9,8.44771525 9,9 C9,9.55228475 9.44771525,10 10,10 Z M14,10 C14.5522847,10 15,9.55228475 15,9 C15,8.44771525 14.5522847,8 14,8 C13.4477153,8 13,8.44771525 13,9 C13,9.55228475 13.4477153,10 14,10 Z" id="Combined-Shape" fill="#000000"></path>
+    </g>
+</svg>

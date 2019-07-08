@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_feedback_outline_16px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_feedback_outline_16px">
+            <path d="M0,0 L16,0 L16,16 L0,16 L0,0 Z" id="Shape"></path>
+            <path d="M3.09289322,11.4928932 L3.38578644,11.2 L3.8,11.2 L13.6,11.2 C13.8177153,11.2 14,11.0177153 14,10.8 L14,2.4 C14,2.18228475 13.8177153,2 13.6,2 L2.4,2 C2.18516743,2 2.007,2.1794047 2.00699985,2.40055556 L2.00699983,11 L2.00699983,13 L3.09289322,11.4928932 Z M13.6,1 L13.6,1 C14.37,1 15,1.63 15,2.4 L15,10.8 C15,11.57 14.37,12.2 13.6,12.2 L3.8,12.2 L1,15 L1.007,2.4 C1.007,1.63 1.63,1 2.4,1 L13.6,1 Z" id="Shape" fill="#000000"></path>
+            <path d="M8.7,6.6 L7.3,6.6 L7.3,3.8 L8.7,3.8 L8.7,6.6 L8.7,6.6 Z" id="Path" fill="#000000"></path>
+            <path d="M8.7,9.4 L7.3,9.4 L7.3,8 L8.7,8 L8.7,9.4 L8.7,9.4 Z" id="Path" fill="#000000"></path>
+        </g>
+    </g>
+</svg>

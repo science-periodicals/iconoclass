@@ -1,0 +1,8 @@
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <title>
+        icon_view_grid_16px
+    </title>
+    <g fill="#000" fill-rule="evenodd">
+        <path d="M5 13V9H3v4h2zm2 0h2V9H7v4zm4-4v4h2V9h-2zM5 7V3H3v4h2zm2 0h2V3H7v4zm4-4v4h2V3h-2z"/>
+    </g>
+</svg>

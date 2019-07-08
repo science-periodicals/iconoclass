@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_thumb_up_warning_24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_thumb_up_warning_24px" transform="translate(1.000000, 1.000000)" fill-rule="nonzero" fill="#000000">
+            <path d="M0,20 L4,20 L4,8 L0,8 L0,20 Z M22,9 L22,9.09 L22,11 C22,11.26 21.95,11.5 21.86,11.73 L18.84,18.78 C18.54,19.5 17.83,20 17,20 L8,20 C6.9,20 6,19.1 6,18 L6,8 C6,7.45 6.22,6.95 6.59,6.59 L13.17,0 L14.23,1.05 C14.5,1.32 14.67,1.7 14.67,2.11 L14.64,2.43 L13.8937988,6.01962034 C13.78109,6.56180919 14.1376428,7 14.6898383,7 L20,7 C21.1,7 22,7.9 22,9 Z M12,9 L12,14 L14,14 L14,9 L12,9 Z M12,15.5046844 L12,16.4953156 C12,16.785965 12.2259549,17 12.5046844,17 L13.4953156,17 C13.785965,17 14,16.7740451 14,16.4953156 L14,15.5046844 C14,15.214035 13.7740451,15 13.4953156,15 L12.5046844,15 C12.214035,15 12,15.2259549 12,15.5046844 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

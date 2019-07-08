@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_admin_24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_admin_24px" transform="translate(3.000000, 1.000000)" fill="#000000">
+            <path d="M0,4 L0,10 C0,15.55 3.84,20.74 9,22 C14.16,20.74 18,15.55 18,10 L18,4 L9,0 L0,4 L0,4 Z M9,11 C10.7,11 12,9.7 12,8 C12,6.3 10.7,5 9,5 C7.3,5 6,6.3 6,8 C6,9.7 7.3,11 9,11 L9,11 Z M3.10110349,14.9623655 C4.28593829,17.4697183 6.36081245,19.4126342 8.99999997,20.0570869 C11.6391875,19.4126342 13.7140617,17.4697183 14.8988965,14.9623654 C14.2654721,13.3207885 10.8119476,12.5 9,12.5 C7.18805244,12.5 3.73452791,13.3207885 3.10110349,14.9623655 L3.10110349,14.9623655 L3.10110349,14.9623655 Z" id="shield"></path>
+        </g>
+    </g>
+</svg>

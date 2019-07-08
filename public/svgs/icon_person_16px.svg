@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_person_16px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_person_16px">
+            <rect id="Rectangle-path" x="0" y="0" width="16" height="16"></rect>
+            <path d="M8,8 C9.7,8 11,6.7 11,5 C11,3.3 9.7,2 8,2 C6.3,2 5,3.3 5,5 C5,6.7 6.3,8 8,8 L8,8 L8,8 Z M8,9.5 C6,9.5 2,10.5 2,12.5 L2,14 L14,14 L14,12.5 C14,10.5 10,9.5 8,9.5 L8,9.5 L8,9.5 Z" id="Shape" fill="#000000"></path>
+        </g>
+    </g>
+</svg>

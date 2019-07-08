@@ -1,0 +1,9 @@
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <title>
+        icon_alert_16px
+    </title>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0h16v16H0z"/>
+        <path d="M6.01 14.01C6.01 15.11 6.9 16 8 16s1.99-.89 1.99-1.99H6.01zM13 6c0-2.347-1.399-3.812-3.763-4.332v-.52C9.237.513 8.684 0 8 0S6.763.513 6.763 1.148v.52C4.4 2.188 3 3.653 3 6v5l-2 1.234V13h14v-.766L13 11V6z" fill="#000"/>
+    </g>
+</svg>

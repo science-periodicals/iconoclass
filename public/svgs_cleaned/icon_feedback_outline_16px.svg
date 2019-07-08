@@ -1,0 +1,10 @@
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <title>
+        icon_feedback_outline_16px
+    </title>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0h16v16H0V0z"/>
+        <path d="M3.093 11.493l.293-.293H13.6c.218 0 .4-.182.4-.4V2.4c0-.218-.182-.4-.4-.4H2.4a.398.398 0 0 0-.393.4V13l1.086-1.507zM13.6 1c.77 0 1.4.63 1.4 1.4v8.4c0 .77-.63 1.4-1.4 1.4H3.8L1 15l.007-12.6c0-.77.623-1.4 1.393-1.4h11.2z" fill="#000"/>
+        <path d="M8.7 6.6H7.3V3.8h1.4v2.8zM8.7 9.4H7.3V8h1.4v1.4z" fill="#000"/>
+    </g>
+</svg>

@@ -1,0 +1,96 @@
+.iconoclass {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  background-color: transparent;
+}
+
+button.iconoclass {
+  & * {
+    /* to fix chrome event bug */
+    pointer-events: none;
+  }
+}
+button.iconoclass,
+.iconoclass--button {
+  background-color: inherit;
+}
+
+button.iconoclass:not(.iconoclass--disabled),
+.iconoclass--button:not(.iconoclass--disabled) {
+  cursor: pointer;
+}
+
+button.iconoclass .iconoclass__svg,
+.iconoclass--button.iconoclass .iconoclass__svg {
+  opacity: 0.6;
+}
+button.iconoclass:hover .iconoclass__svg,
+.iconoclass--button.iconoclass:hover .iconoclass__svg {
+  opacity: 1;
+}
+
+button.iconoclass:active .iconoclass__svg,
+.iconoclass--button.iconoclass:active .iconoclass__svg {
+  opacity: 1;
+}
+
+button.iconoclass[disabled] .iconoclass__svg,
+.iconoclass--button.iconoclass[disabled] .iconoclass__svg,
+.iconoclass--toggle.iconoclass[disabled] .iconoclass__svg {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.iconoclass--toggle .iconoclass__svg {
+  opacity: 0.4;
+  cursor: pointer;
+}
+.iconoclass--toggle:hover .iconoclass__svg {
+  opacity: 0.8;
+}
+.iconoclass--toggle.iconoclass--checked .iconoclass__svg {
+  opacity: 1;
+}
+
+.iconoclass__string {
+  font-family: "Roboto", sans-serif;
+  line-height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  padding-top: 0.05em;
+}
+
+/* try to only add focus styles when ncessary, otherwise will add focus to everything with :focus */
+/* this is intended for use with module to capture focus source */
+html[data-focus-source="key"] > body .button.iconoclass:focus,
+html[data-focus-source="key"] > body button.iconoclass:focus {
+  outline: none;
+}
+
+html[data-focus-source="key"]
+  > body
+  .button.iconoclass:focus
+  .iconoclass__focus,
+html[data-focus-source="key"]
+  > body
+  button.iconoclass:focus
+  .iconoclass__focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* chrome / webkit shows focus outline on buttons by default so restyle */
+@supports (-webkit-appearance: none) {
+  button.iconoclass:focus {
+    outline: none;
+  }
+  button.iconoclass:focus .iconoclass__focus {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  button.iconoclass .iconoclass__focus {
+    transition: background-color 0.2s;
+  }
+}

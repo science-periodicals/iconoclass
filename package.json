@@ -1,0 +1,130 @@
+{
+  "name": "@scipe/iconoclass",
+  "version": "0.0.0",
+  "description": "React component for managing all of sci.pe's icons",
+  "main": "dist/iconoclass.js",
+  "module": "esdist/iconoclass.js",
+  "style": "src/iconoclass.css",
+  "scripts": {
+    "format": "prettier --single-quote --write src/iconoclass.js",
+    "test": "mocha --require @babel/register --bail --exit",
+    "watch": "rm -rf example-dist && mkdir example-dist && cp example-src/index.html example-dist/index.html && npm run watch-example",
+    "watch-component": "babel src -d dist --watch --source-maps --env-name cjs",
+    "watch-util": "babel svg2jsx.js --out-file svg2jsx.bundle.js --watch --source-maps",
+    "watch-example": "webpack --config webpack.example.config.js --watch",
+    "build-component": "rm -rf dist; mkdir dist; babel src -d dist --env-name cjs",
+    "build-component-esm": "rm -rf esdist; mkdir esdist; babel src -d esdist --env-name esm",
+    "build-util": "rm -rf util && mkdir util && babel svg2jsx.js --out-file ./util/svg2jsx.bundle.js --source-maps",
+    "prebuild-example": "rm -rf example-dist && mkdir example-dist && cp example-src/index.html example-dist/index.html",
+    "build-example": "cross-env NODE_ENV=production webpack --config webpack.example.config.js",
+    "cleansvgs": "svgo --pretty -f ./public/svgs -o ./public/svgs_cleaned",
+    "prebuild": "rm -rf dist & rm -rf ./public/svgs_cleaned && npm run build-util && npm run cleansvgs && node ./util/svg2jsx.bundle.js ./public/svgs_cleaned ./src/lib",
+    "build": "npm run build-component && npm run build-component-esm && npm run build-example",
+    "subtree-push": "git push origin `git subtree split --prefix example-dist master`:gh-pages --force",
+    "publish": "npm run subtree-push",
+    "postversion": "git push && git push --tags",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/science-periodicals/iconoclass.git"
+  },
+  "keywords": [
+    "react",
+    "icons"
+  ],
+  "author": "Erik VVysocan",
+  "license": "See README.md",
+  "bugs": {
+    "url": "https://github.com/science-periodicals/iconoclass/issues"
+  },
+  "homepage": "https://github.com/science-periodicals/iconoclass",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.4.4",
+    "@scipe/eslint-config": "^1.0.0",
+    "autoprefixer": "^9.5.0",
+    "babel-loader": "^8.0.5",
+    "babelify": "^8.0.0",
+    "brfs": "^2.0.2",
+    "browserify": "^16.0.0",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-react": "^7.12.4",
+    "mini-css-extract-plugin": "^0.6.0",
+    "mocha": "^5.0.4",
+    "postcss": "^7.0.14",
+    "postcss-cli": "^6.1.2",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.1.2",
+    "postcss-preset-env": "^6.6.0",
+    "postcss-reporter": "^6.0.1",
+    "postcss-url": "^8.0.0",
+    "prettier": "^1.16.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-test-renderer": "^16.8.6",
+    "style-loader": "^0.23.1",
+    "svgo": "^0.7.2",
+    "watchify": "^3.11.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "eslintConfig": {
+    "extends": "@scipe"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.7.2"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": "> 0.25%, not dead"
+        }
+      ],
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-object-rest-spread"
+    ],
+    "env": {
+      "cjs": {
+        "presets": [
+          [
+            "@babel/preset-env",
+            {
+              "modules": "commonjs"
+            }
+          ]
+        ]
+      },
+      "esm": {
+        "presets": [
+          [
+            "@babel/preset-env",
+            {
+              "modules": false
+            }
+          ]
+        ]
+      }
+    }
+  }
+}

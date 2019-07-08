@@ -1,0 +1,10 @@
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <title>
+        icon_file_data_16px
+    </title>
+    <g fill="#000" fill-rule="evenodd">
+        <path d="M11.5 1L13 2.5V14H3V1h8.5zM2 0v15h12V2l-2-2H2z"/>
+        <path d="M5 4h6v2H5zM5 6h1v5H5zM10 6h1v5h-1zM7.5 6h1v5h-1z"/>
+        <path d="M5 7h6v1H5zM5 9h6v1H5zM5 11h6v1H5z"/>
+    </g>
+</svg>

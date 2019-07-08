@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_glasses_24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_glasses_24px">
+            <g id="bg">
+                <rect id="Rectangle-path" x="0" y="0" width="24" height="24"></rect>
+            </g>
+            <g id="Layer_4" transform="translate(1.000000, 7.000000)" fill="#000000">
+                <path d="M22,4.1 L20.8,4.1 C20.5,2.1 19,0.5 16.4,0.5 C14.7,0.5 13.2,1.5 12.6,3 C12.2,2.6 11.6,2.3 11,2.3 C10.4,2.3 9.8,2.6 9.4,3 C8.7,1.5 7.2,0.5 5.5,0.5 C3.4,0.5 1.6,2.1 1.3,4.1 L0,4.1 L0,5.2 L1.3,5.2 C1.6,7.2 3.4,8.8 5.6,8.8 C7.9,8.8 9.8,6.9 9.8,4.6 C9.8,3.9 10.4,3.3 11.1,3.3 C11.8,3.3 12.4,3.9 12.4,4.6 C12.4,6.9 14.3,8.8 16.6,8.8 C18.7,8.8 20.5,7.2 20.8,5.2 L22,5.2 L22,4.1 Z M5.5,7.25 C3.99193548,7.25 2.75,6.06451613 2.75,4.625 C2.75,3.18548387 3.99193548,2 5.5,2 C7.00806452,2 8.25,3.18548387 8.25,4.625 C8.25,6.06451613 7.00806452,7.25 5.5,7.25 Z M16.5,7.25 C14.9919355,7.25 13.75,6.06451613 13.75,4.625 C13.75,3.18548387 14.9919355,2 16.5,2 C18.0080645,2 19.25,3.18548387 19.25,4.625 C19.25,6.06451613 18.0080645,7.25 16.5,7.25 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
