@@ -21,7 +21,7 @@
     "prebuild": "rm -rf dist & rm -rf ./public/svgs_cleaned && npm run build-util && npm run cleansvgs && node ./util/svg2jsx.bundle.js ./public/svgs_cleaned ./src/lib",
     "build": "npm run build-component && npm run build-component-esm && npm run build-example",
     "subtree-push": "git push origin `git subtree split --prefix example-dist master`:gh-pages --force",
-    "publish": "npm run subtree-push",
+    "x-publish": "npm run subtree-push",
     "postversion": "git push && git push --tags",
     "prepare": "npm run build"
   },
