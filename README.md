@@ -1,8 +1,8 @@
-# [@scipe/iconoclass](http://science-periodicals.github.io/iconoclass/)
+# @scipe/iconoclass
 
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-One component to manage all of sci.pe icons.
+One component to manage all of sci.pe icons. See https://science-periodicals.github.io/iconoclass/index.html for example of all icons.
 
 Note: this module is auto published to npm on CircleCI. Only run `npm version
 patch|minor|major` and let CI do the rest.
