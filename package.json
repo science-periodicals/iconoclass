@@ -1,6 +1,6 @@
 {
   "name": "@scipe/iconoclass",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component for managing all of sci.pe's icons",
   "main": "dist/iconoclass.js",
   "module": "esdist/iconoclass.js",
